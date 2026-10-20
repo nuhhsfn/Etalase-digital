@@ -1,0 +1,2 @@
+ALTER TABLE projects
+ADD COLUMN bahasa VARCHAR(100) NULL AFTER deskripsi;

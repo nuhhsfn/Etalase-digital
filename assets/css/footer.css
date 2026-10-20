@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 0 !important;
+}
+
+.site-footer {
+    width: 100%;
+    margin-top: auto !important;
+    flex-shrink: 0;
+    background: #121316;
+    color: #cbd0d8;
+}
+
+.page-main {
+    flex: 1 0 auto;
+}
+
+.site-footer .footer-brand {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.site-footer p {
+    font-size: 0.9rem;
+}
+
+.site-footer .small {
+    color: #9ca3af;
+}
